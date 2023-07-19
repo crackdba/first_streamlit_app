@@ -45,5 +45,5 @@ streamlit.dataframe (my_data_rows)
 
 
 #New Section to add fruit
-fruit_choice2 = streamlit.text_input('What fruit would you like to add?','Jackfruit')
-streamlit.write('Thanks for adding ', fruit_choice2)
+add_my_fruit = streamlit.text_input('What fruit would you like to add?','Jackfruit')
+streamlit.write('Thanks for adding ', add_my_fruit)
